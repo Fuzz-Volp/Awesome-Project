@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, TouchableOpacity } from "react-native";
 
-export const Home = ({ navigation }) => {
+const Home = ({ navigation }) => {
   return (
     <View>
       <TouchableOpacity
@@ -14,3 +14,5 @@ export const Home = ({ navigation }) => {
     </View>
   );
 };
+
+export default Home;

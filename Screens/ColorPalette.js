@@ -1,5 +1,5 @@
 import React from "react";
-import { SafeAreaView, FlatList } from "react-native-safe-area-context";
+import { Text, SafeAreaView, FlatList } from "react-native";
 import { ColorBox } from "../Components/ColorBox";
 import { styles } from "../Styles/Styling";
 
@@ -22,7 +22,7 @@ const COLORS = [
   { colorName: "Green", hexCode: "#859900" },
 ];
 
-export const ColorPalette = () => {
+const ColorPalette = () => {
   return (
     <SafeAreaView>
       <FlatList
@@ -37,3 +37,5 @@ export const ColorPalette = () => {
     </SafeAreaView>
   );
 };
+
+export default ColorPalette;
