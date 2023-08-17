@@ -4,6 +4,7 @@ export const styles = StyleSheet.create({
   container: {
     paddingTop: 50,
     paddingHorizontal: 10,
+    backgroundColor: "white",
   },
   heading: {
     fontSize: 18,
@@ -14,36 +15,18 @@ export const styles = StyleSheet.create({
     fontWeight: "bold",
     color: "white",
   },
-  cyanBox: {
-    padding: 10,
-    borderRadius: 3,
-    justifyContent: "center",
-    alignItems: "center",
-    marginBottom: 10,
-    backgroundColor: "#2aa198",
+  list: {
+    flexDirection: "row",
+    marginBottom: 30,
   },
-  blueBox: {
-    padding: 10,
-    borderRadius: 3,
-    justifyContent: "center",
-    alignItems: "center",
-    marginBottom: 10,
-    backgroundColor: "#268bd2",
-  },
-  magentaBox: {
-    padding: 10,
-    borderRadius: 3,
-    justifyContent: "center",
-    alignItems: "center",
-    marginBottom: 10,
-    backgroundColor: "#d33682",
-  },
-  orangeBox: {
-    padding: 10,
-    borderRadius: 3,
-    justifyContent: "center",
-    alignItems: "center",
-    marginBottom: 10,
-    backgroundColor: "#cb4b16",
+  color: {
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.3,
+    shadowRadius: 1,
+    elevation: 2,
+    height: 40,
+    width: 40,
+    marginRight: 10,
   },
 });
